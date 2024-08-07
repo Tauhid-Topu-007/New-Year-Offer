@@ -222,6 +222,9 @@ span{
     /* position:bottom ; */
 
 }
+.image-bottom img{
+    width: 100%;
+}
 
 .section6{
     width: 100%;
@@ -359,6 +362,10 @@ span{
     .section6 img{
         margin: auto;
     }
+
+    .section7{
+        padding: 20px;
+    }
     .section8{
         padding: 50px;
         flex-direction: column;
@@ -369,5 +376,27 @@ span{
     }
     .divv-content2{
         margin-top: 20px;
+    }
+    .image-right img{
+        margin-top: 20px;
+        width: 150px;
+    }
+    .image-left img{
+        margin-top: 20px;
+    }
+    .middle img{
+        width: 150px;
+        margin-left: -60px;
+        text-align: center;
+        align-items: center;
+    }
+    .right img{
+        margin-top: 20px;
+        width: 150px;
+        text-align: center;
+        align-items: center;
+    }
+    .section8{
+        margin-bottom: -30px;
     }
 }
